@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Candal</title>
+    <link rel="icon" href="../assets/img/short-logo.svg" type="image/svg">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/bootstrap.min.css">
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap-icon/bootstrap-icons.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-lg-none" href="../index.html"><img src="../assets/img/long-logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <a class="navbar-brand d-none d-lg-block" href="../index.html"><img src="../assets/img/long-logo.svg"
+                        alt=""></a>
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Discovery
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav flex-row column-gap-1">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="bi bi-person h4"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link "><i class="bi bi-cart4 h4"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+
+    <section class="product_details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img class="img-fluid" src="../assets/img/13701879ed1c9befc9a6af6cb3d8613f.png" alt="">
+                    <div class="text-center h4">
+                        All hand-made with natural soy wax, Candleaf is made for your pleasure moments.
+                        <div class="text-success h2 mt-2">🚚 FREE SHIPPING</div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="d-flex justify-content-center flex-column align-items-start h-100">
+
+
+                        <h2 class="my-3 text-dark">Spiced Mint Candleaf®</h2>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h3 class="my-5 text-success">$ 9.99</h3>
+
+                                <span>
+                                    Quantity
+                                </span>
+                                <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                                    <div class="btn-group me-2" role="group" aria-label="First group">
+                                        <button onclick="item_cart(-1)" type="button"
+                                            class="btn btn-secondary">-</button>
+                                        <input type="number" value="0" class="form-control rounded-0" name=""
+                                            id="item_cart">
+                                        <button onclick="item_cart(1)" type="button"
+                                            class="btn btn-secondary">+</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <fieldset class="border p-2">
+                                    <legend class="float-none w-auto p-2">
+                                        <input class="form-check-input" type="radio" name="plan" id="plan1"> <label
+                                            for="plan1">One time
+                                            purchase</label>
+                                    </legend>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit amet quam
+                                    numquam laudantium impedit labore vel consequuntur corporis, at delectus placeat
+                                    neque sed molestiae temporibus assumenda esse necessitatibus recusandae ullam.
+                                </fieldset>
+                                <div>
+                                    <fieldset class="border p-2">
+                                        <legend class="float-none w-auto p-2">
+                                            <input pattern="product items" class="form-check-input" type="radio"
+                                                name="plan" id="plan2"> <label for="plan2">Monthly Payment</label>
+                                        </legend>
+                                        Subscribe now and get the 10% of discount on every recurring order. The
+                                        discount
+                                        will be applied at checkout. <a class="text-success" href="#">See
+                                            details</a>
+                                    </fieldset>
+                                    <a href="../cart/" class="btn btn-success w-100 my-2 rounded"><i
+                                            class="bi bi-cart-fill"></i>
+                                        + Add To cart</a>
+                                </div>
+
+                            </div>
+                            <div class="border p-2 mt-2">
+                                <p><span class="fw-bold">Wax:</span> Top grade Soy wax that delivers a smoke less,
+                                    consistent burn</p>
+                                <p><span class="fw-bold">Fragrance:</span> Premium quality ingredients with natural
+                                    essential oils</p>
+                                <p><span class="fw-bold"> Burning Time:</span> 70-75 <span
+                                        class="fw-bold">dimension:</span> 10cm x 5cm <span class="fw-bold">
+                                        weight:</span> 400g</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- start footer -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../assets/img/logo-footer.svg" alt="">
+                    <div class="text-light">
+                        Your natural candle made for your home and for your wellness.
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-2">
+                    <p class="text-success">Discovery</p>
+                    <a class="text-light d-block mb-2">New season</a>
+                    <a class="text-light d-block mb-2">Most searched</a>
+                    <a class="text-light d-block mb-2">Most selled</a>
+                </div>
+                <div class="col-md-6 col-xl-2">
+                    <p class="text-success">About</p>
+                    <a class="text-light d-block mb-2">Help</a>
+                    <a class="text-light d-block mb-2">Shipping</a>
+                    <a class="text-light d-block mb-2">Affiliate</a>
+                </div>
+                <div class="col-md-6 col-xl-2">
+                    <p class="text-success">Info</p>
+                    <a class="text-light d-block mb-2">Contact us</a>
+                    <a class="text-light d-block mb-2">Privacy Policies</a>
+                    <a class="text-light d-block mb-2">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- bootstrap js -->
+    <script src="../assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- custom css -->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

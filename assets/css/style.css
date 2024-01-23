@@ -1,0 +1,128 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: #309975;
+    --yellow: #DAD873;
+    --white: #fff;
+    --light-white: #eee;
+    --gray: #6b6b6b;
+    --black: #000;
+    --light-black: #141414;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+section {
+    padding: 85px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+    color: var(--green);
+}
+
+.section-title p,
+.section-title div {
+    color: var(--gray) !important;
+}
+
+/* hero */
+.hero {
+    min-height: 90vh;
+    position: relative;
+    z-index: 5;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background: url(../img/bg-image.png);
+    z-index: -1;
+}
+
+.hero .content {
+    max-width: 500px;
+    padding: 50px;
+    margin: 85px auto 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.hero .content .title {
+    font-size: 35px;
+    color: var(--green);
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero .content p {
+    color: var(--gray);
+    margin-bottom: 20px !important;
+}
+
+/* end hero */
+
+/* start review */
+.review {
+    background: rgb(204, 227, 231);
+}
+
+.review .card {
+    padding: 15px;
+}
+
+.review .card .profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid var(--green);
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+.review .card .profile img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+/* end review */

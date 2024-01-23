@@ -1,0 +1,9 @@
+@media (max-width:991px) {
+    .hero .content {
+        margin-top: 15px;
+    }
+
+    .hero .content .title {
+        font-size: 22px;
+    }
+}
